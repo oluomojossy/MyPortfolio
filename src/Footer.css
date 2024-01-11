@@ -1,0 +1,106 @@
+.FooterContainer{
+    width: 100%;
+    height: 120vh;
+    background-color: rgba(0, 0, 255, 0.692);
+    background-image: url(https://ebukanweje.github.io/ebuka-portfolio/assets/images/header-shapesmobile@2x.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 150px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+.footerDiv{
+    width: 40%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: green; */
+}
+.footerDiv h1{
+    font-family: Poppins, sans-serif;
+    Font-weight: 700;
+    Line-height: normal;
+    color: rgb(255, 255, 255);
+    Font-size: 40px;
+}
+.footerDiv p{
+    font-family: Poppins, sans-serif;
+    Font-size: 20px;
+    Font-weight: 400;
+    Line-height: normal;
+    color: rgb(235, 235, 255);
+    margin-bottom: 30px;
+}
+.input1{
+    width: 80%;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+.input2{
+    width: 80%;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+.input3{
+    width: 80%;
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 25px;
+
+}
+
+.footerDiv button{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    font-family: Arial;
+    Font-size: 17px;
+    Font-weight: 700;
+    Line-height: normal;
+    color: rgb(255, 255, 255);
+    color: rgba(0, 0, 255, 0.842);
+    border: none;
+    transform: scale(1);
+    transition: 350ms;
+    margin-bottom: 80px;
+}
+.footerDiv button:hover{
+    color: white;
+    background: rgba(0, 0, 255, 0.877);
+    transform: scale(1.1);
+}
+.footerDiv hr{
+    width: 30%;
+}
+
+@media screen and (max-width:360px){
+    .FooterContainer{
+        height: max-content;
+        /* margin-top: -10px; */
+    }
+    .footerDiv{
+        margin-top: 100px;
+        width: 90%;
+    }
+    .footerDiv h1{
+        margin-top: -10px;
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .footerDiv p{
+        font-size: 18px;
+    }
+    .footerDiv hr{
+        /* margin-top: -20px; */
+        margin-bottom: 20px;
+    }
+}
