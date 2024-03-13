@@ -1,4 +1,9 @@
 import './Hero.css'
+import svgOne from './assets/1.svg'
+import svgTwo from './assets/2.svg'
+import svgThree from './assets/3.svg'
+import svgFour from './assets/4.svg'
+import svgFive from './assets/5.svg'
 
 function Hero () {
     return(
@@ -12,11 +17,11 @@ Glad to see you!</h1>
             <p className='p2'>LET'S CONNECT</p>
             </div>
             <div className="Icons">
-                <img src='./src/assets/1.svg'/>
-                <img src='./src/assets/2.svg'/>
-                <img src='./src/assets/3.svg'/>
-                <img src='./src/assets/4.svg'/>
-                <img src='./src/assets/5.svg'/>
+            <img src={svgOne} alt="" />
+                <img src={svgTwo} alt="" />
+                <img src={svgThree} alt="" />
+                <img src={svgFour} alt="" />
+                <img src={svgFive} alt="" />
             </div>
             </div> 
 

@@ -1,4 +1,6 @@
 import './Header.css'
+import list from './assets/list.png'
+
 
 function Header(){
     return(
@@ -8,7 +10,8 @@ function Header(){
             <p>Joseph A.</p>
         </div>
         <div className="listDiv">
-            <img src='./src/assets/list.png'/>
+            <img src={list} alt="" />
+
         </div>
         <div className="right">
             <p>Portfolio</p>

@@ -1,5 +1,14 @@
 import './About.css'
 import svgOne from './assets/1.svg'
+import svgTwo from './assets/2.svg'
+import svgThree from './assets/3.svg'
+import svgFour from './assets/4.svg'
+import svgFive from './assets/5.svg'
+import java from './assets/js.svg'
+import html from './assets/html5.svg'
+import css from './assets/css.svg'
+import downArrow from './assets/down-arrow.png'
+import downArrowOne from './assets/down-arrow (1).png'
 
 function About (){
     return(
@@ -10,12 +19,12 @@ function About (){
                 <p className='selfp'>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
                 <p className='selfp2'>LET'S CONNECT</p>
                 <div className="Icons2">
-                {/* <img src='./src/assets/1.svg'/> */}
                 <img src={svgOne} alt="" />
-                <img src='./src/assets/2.svg'/>
-                <img src='./src/assets/3.svg'/>
-                <img src='./src/assets/4.svg'/>
-                <img src='./src/assets/5.svg'/>
+                <img src={svgTwo} alt="" />
+                <img src={svgThree} alt="" />
+                <img src={svgFour} alt="" />
+                <img src={svgFive} alt="" />
+              
             </div>
             <button>Get my resume</button>
             </div>
@@ -23,23 +32,25 @@ function About (){
             <div className="Languages">
                 <div className="lagDrop">
                     <p>Languages</p>
-                    <img src='./src/assets/down-arrow.png'/>
+                <img src={downArrow} alt="" />
                 </div>
                 <div className="lagIicon">
-                <img src='./src/assets/js.svg'/>
-                <img src='./src/assets/html5.svg'/>
-                <img src='./src/assets/css.svg'/>
+              
+                <img src={java} alt="" />
+                <img src={html} alt="" />
+                <img src={css} alt="" />
 
                 </div>
                 <div className="frameicon">
                     <p>FRAMEWORKS</p>
-                    <img src='./src/assets/down-arrow (1).png'/>
+                <img src={downArrowOne} alt="" />
                 </div>
                 <hr/>
 
                 <div className="skillicon">
                     <p>Skils</p>
-                    <img src='./src/assets/down-arrow (1).png'/>
+                <img src={downArrowOne} alt="" />
+
                 </div>
                 <hr/>
 
